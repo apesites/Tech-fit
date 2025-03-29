@@ -1,0 +1,68 @@
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 0.5fr;
+    position: absolute;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #036dae;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: "orbitron", sans-serif;
+  
+}
+.logo-img{
+    min-width: 12rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 10px;
+}
+
+
+.icon-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 0.5rem;
+}
+
+.header-socials-svg-container{
+    margin-top: 0.8rem;
+    width: 2rem;
+}
+.header-socials-svg{
+    width: 100%;
+}
+.about-us-link{
+    color: white;
+}
+
+@media (max-width: 1089px) {
+    .icon-links{
+        display: none;
+    }
+    .header{
+        display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    position: absolute;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #036dae;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: "orbitron", sans-serif;       
+    }   
+}
+
+@media (max-width: 625px) {
+    .heading{
+        display: none;
+    }
+    .header{
+        grid-template-columns: 2.3fr 1fr;
+    }
+}

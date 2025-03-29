@@ -1,0 +1,82 @@
+.about-page{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    background-color: rgb(144, 210, 239);
+    margin-top: 20px;
+    min-height: 250px;
+    color: black;
+    
+}
+
+.about-logo{
+    width: 20rem;
+    height: 11.2rem;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.about-logo-img{
+    width: 300px;   
+    height: 180px;
+}
+.about-page h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.about-text{
+    margin-left: 20px;
+    width: 300px;
+    margin-top: 0.5rem;
+}
+.socials{
+    margin-left: 2rem;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.socials img{
+    margin-right: 10px;
+}
+
+.insta-svg{
+    width: 20px;
+}
+.fcb-svg{
+    width: 20px;
+}
+.tiktok-svg{
+    width: 20px;
+}
+.phone{
+    width: 15px;
+}
+.whts{
+    width: 15px;
+}
+.email{
+    width: 15px;
+}
+
+
+.contacts{
+
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.about-page h4{
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+}
+.about-page p{
+   min-width: 11rem; 
+}
+
+@media (max-width: 1043px) {
+    .about-page{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        margin: auto;
+    }
+}
