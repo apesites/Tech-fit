@@ -5,11 +5,11 @@
     position: absolute;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #036dae;
+    background-color: rgb(224, 235, 235);
     top: 0;
     left: 0;
     right: 0;
-    color: white;
+    color: #18a6ff;
     font-family: "orbitron", sans-serif;
   
 }
@@ -36,7 +36,7 @@
     width: 100%;
 }
 .about-us-link{
-    color: white;
+    color: #18a6ff;
 }
 
 @media (max-width: 1089px) {
